@@ -30,4 +30,5 @@ function submitComment(commentControl) {
 function navigateToComments(classId) {
     localStorage.setItem('currentItemId', JSON.stringify(classId));
     window.location.href = 'comments?classId=' + classId;
+    // check re-deployment
 }
